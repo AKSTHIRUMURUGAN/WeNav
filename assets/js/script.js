@@ -138,4 +138,25 @@ document.getElementById('playPauseButton').addEventListener('click', function ()
     this.textContent = 'Play';
   }
 });
+// document.addEventListener("DOMContentLoaded", function () {
+//   const video = document.querySelector(".video-banner video");
+
+//   // Preload the video by playing it muted and paused
+//   video.play().then(() => {
+//     video.pause();
+//     video.currentTime = 0; // Reset to start
+//     video.style.opacity = "1"; // Make it visible after preload
+//   });
+
+//   // Play video on hover
+//   video.parentElement.addEventListener("mouseenter", () => {
+//     video.play();
+//   });
+
+//   // Pause video when mouse leaves
+//   // video.parentElement.addEventListener("mouseleave", () => {
+//   //   video.pause();
+//   //   video.currentTime = 0; // Reset to start when hover stops
+//   // });
+// });
 

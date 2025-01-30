@@ -38,8 +38,9 @@
   <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
   <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <!-- <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg"> -->
   <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+  <!-- <link rel="preload" as="video" href="./assets/final_vid.mp4"> -->
 
 </head>
 
@@ -150,7 +151,7 @@
     
               <div class="video-card">
                 <div class="video-banner img-holder has-after" style="--width: 100%; --height: auto;">
-                  <video autoplay loop class="img-cover">
+                  <video class="img-cover" preload="auto" autoplay>
                     <source src="./assets/final_vid.mp4" type="video/mp4">
                   </video>
                 </div>
@@ -289,7 +290,50 @@
           <h2 class="h2 section-title">What It Is - 7 Days Tech Bootcamp</h2>
       
           <ul class="grid-list">
+            <li>
+              <!-- Course Card -->
+              <div class="course-card" >
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
+                  <img src="./assets/images/event1.png" width="370" height="220" loading="lazy"
+                    alt="Build Responsive Real-World Websites with HTML and CSS" class="img-cover">
+                </figure>
       
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                  <span class="span">3 Hours</span>
+                </div>
+      
+                <div class="card-content">
+                  <span class="badge">Want To Explore Tech</span>
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tech Explorer - Free workshop </a>
+                  </h3>
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </div>
+                  <data class="price" value="499">Free!!!</data>
+                  <a  class="register-btn" href="https://tally.so/r/nGqdOp">Register Now →</a>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">8+ Domains</span>
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                      <span class="span">200 Slots Only</span>
+                    </li>
+                  </ul>
+
+                  
+                </div>
+              </div>
+            </li>     
             <li>
               <!-- Course Card -->
               <div class="course-card" >
@@ -334,50 +378,7 @@
                 </div>
               </div>
             </li>
-            <li>
-              <!-- Course Card -->
-              <div class="course-card" >
-                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
-                  <img src="./assets/images/WeNav Brochure (1).jpg" width="370" height="220" loading="lazy"
-                    alt="Build Responsive Real-World Websites with HTML and CSS" class="img-cover">
-                </figure>
-      
-                <div class="abs-badge">
-                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-                  <span class="span">7 Days</span>
-                </div>
-      
-                <div class="card-content">
-                  <span class="badge">Want To Explore Tech</span>
-                  <h3 class="h3">
-                    <a href="#" class="card-title">What It Is - 7 Days Tech Bootcamp</a>
-                  </h3>
-                  <div class="wrapper">
-                    <div class="rating-wrapper">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-                  </div>
-                  <data class="price" value="499">Free!!!</data>
-                  <a  class="register-btn" href="https://tally.so/r/nGqdOp">Register Now →</a>
-                  <ul class="card-meta-list">
-                    <li class="card-meta-item">
-                      <ion-icon name="library-outline" aria-hidden="true"></ion-icon>
-                      <span class="span">8+ Domains</span>
-                    </li>
-                    <li class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-                      <span class="span">200 Slots Only</span>
-                    </li>
-                  </ul>
 
-                  
-                </div>
-              </div>
-            </li>
           </ul>
         </div>
 
@@ -465,8 +466,8 @@
                 class="img-cover">
             </div>
 
-            <img src="./assets/images/about-shape-1.svg" width="360" height="420" loading="lazy" alt=""
-              class="shape about-shape-1">
+            <!-- <img src="./assets/images/about-shape-1.svg" width="360" height="420" loading="lazy" alt=""
+              class="shape about-shape-1"> -->
 
             <img src="./assets/images/about-shape-2.svg" width="371" height="220" loading="lazy" alt=""
               class="shape about-shape-2">
@@ -529,7 +530,7 @@
           <img src="./assets/images/devs3.jpg" width="240" height="370" alt="hero banner" class="img-cover">
         </div>
 
-        <img src="./assets/images/hero-shape-1.svg" width="380" height="190" alt="" class="shape hero-shape-1">
+        <!-- <img src="./assets/images/hero-shape-1.svg" width="380" height="190" alt="" class="shape hero-shape-1"> -->
 
         <img src="./assets/images/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2">
 
@@ -657,7 +658,7 @@
           <div class="wrapper">
             <span class="span">Call:</span>
 
-            <a href="tel:+011234567890" class="footer-link">  +91 8838023321</a>
+            <a href="tel:+918838023321" class="footer-link">  +91 8838023321</a>
           </div>
 
           <div class="wrapper">
